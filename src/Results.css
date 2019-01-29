@@ -1,0 +1,29 @@
+.grid-container {
+    /* margin-left: 30px; */
+    display: grid;
+    align-content: start;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    padding: 30px;
+    margin-left: 10%;
+  }
+
+  div.polaroid {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+  /* .grid-container img{
+    width: 15em;
+    height: 15em;
+    border-radius: 8px;
+  } */
+
+  .grid-container > div:hover{
+    box-shadow: 10px 10px 5px grey;
+    
+  }

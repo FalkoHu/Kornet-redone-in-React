@@ -1,25 +1,32 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Header from "./Header";
+import SearchBar from "./SearchBar";
+import Results from "./Results";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      restaurants: null
+    };
+    this.results = React.createRef();
+  }
+
+  clickedHandler = data => {
+    this.setState({
+      restaurants: data
+    });
+    this.results.current.updateSearch(data);
+  };
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header />
+        <SearchBar submitHandler={this.clickedHandler} />
+        <h1 style={{textAlign: 'center', color: 'crimson'}}>{this.state.restaurants}</h1>
+        <Results name={this.state.restaurants} ref={this.results} />
       </div>
     );
   }
