@@ -39,7 +39,7 @@ class Results extends Component {
               className="polaroid"
               onClick={() => this.togglePopup(item.id)}
             >
-            <img src={item.image_url} style={{ width: "100%" }} />
+            <img src={item.image_url} style={{ width: "100%" }} alt="Restaurant Pic" />
             <div className="container">
                 <p>{item.name}</p>
             </div>
