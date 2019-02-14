@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/RestaurantAPI/static/js/runtime~main.5f25077d.js"
   },
   {
-    "revision": "bd1548de359fcb05b9f8",
-    "url": "/RestaurantAPI/static/js/main.bd1548de.chunk.js"
+    "revision": "8360efd2cbc56cc3bb15",
+    "url": "/RestaurantAPI/static/js/main.8360efd2.chunk.js"
   },
   {
     "revision": "f739feb7d61c48a46bed",
     "url": "/RestaurantAPI/static/js/1.f739feb7.chunk.js"
   },
   {
-    "revision": "bd1548de359fcb05b9f8",
-    "url": "/RestaurantAPI/static/css/main.5077b8fa.chunk.css"
+    "revision": "8360efd2cbc56cc3bb15",
+    "url": "/RestaurantAPI/static/css/main.61ec271b.chunk.css"
   },
   {
-    "revision": "c16f7ba7c568d301ef2c1bef3d061d77",
+    "revision": "6456b324521a4518ae6f7c762a724163",
     "url": "/RestaurantAPI/index.html"
   }
 ];

@@ -1,13 +1,13 @@
 {
-  "main.css": "/RestaurantAPI/static/css/main.5077b8fa.chunk.css",
-  "main.js": "/RestaurantAPI/static/js/main.bd1548de.chunk.js",
-  "main.js.map": "/RestaurantAPI/static/js/main.bd1548de.chunk.js.map",
+  "main.css": "/RestaurantAPI/static/css/main.61ec271b.chunk.css",
+  "main.js": "/RestaurantAPI/static/js/main.8360efd2.chunk.js",
+  "main.js.map": "/RestaurantAPI/static/js/main.8360efd2.chunk.js.map",
   "static/js/1.f739feb7.chunk.js": "/RestaurantAPI/static/js/1.f739feb7.chunk.js",
   "static/js/1.f739feb7.chunk.js.map": "/RestaurantAPI/static/js/1.f739feb7.chunk.js.map",
   "runtime~main.js": "/RestaurantAPI/static/js/runtime~main.5f25077d.js",
   "runtime~main.js.map": "/RestaurantAPI/static/js/runtime~main.5f25077d.js.map",
-  "static/css/main.5077b8fa.chunk.css.map": "/RestaurantAPI/static/css/main.5077b8fa.chunk.css.map",
+  "static/css/main.61ec271b.chunk.css.map": "/RestaurantAPI/static/css/main.61ec271b.chunk.css.map",
   "index.html": "/RestaurantAPI/index.html",
-  "precache-manifest.b0b0a51f08debdb45c31e8c0c442f703.js": "/RestaurantAPI/precache-manifest.b0b0a51f08debdb45c31e8c0c442f703.js",
+  "precache-manifest.5d9eba5f0616dbed3fbcbdb9ca2446c8.js": "/RestaurantAPI/precache-manifest.5d9eba5f0616dbed3fbcbdb9ca2446c8.js",
   "service-worker.js": "/RestaurantAPI/service-worker.js"
 }
