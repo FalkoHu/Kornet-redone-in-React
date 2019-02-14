@@ -66,7 +66,7 @@ class Results extends Component {
           isLoaded: true
         });
       });
-  }
+    }
 }
 
 export default Results;

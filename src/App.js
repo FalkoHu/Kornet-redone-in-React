@@ -24,7 +24,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <SearchBar submitHandler={this.clickedHandler} />
-        <h1 style={{textAlign: 'center', color: 'crimson'}}>{this.state.restaurants}</h1>
+        <h2 style={{textAlign: 'center'}}>{this.state.restaurants}</h2>
         <Results name={this.state.restaurants} ref={this.results} />
       </div>
     );

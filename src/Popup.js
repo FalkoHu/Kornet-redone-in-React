@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./CSS/Popup.css";
 
 class Popup extends Component {
+  
   render() {
     return (
       <div className="popup" onClick={this.props.closePopup}>
