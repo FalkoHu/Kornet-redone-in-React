@@ -2,7 +2,7 @@
   "name": "restaurant",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://[falko.hussain@gmail.com].github.io/[RestaurantAPI]/",
+  "homepage": "https://FalkoHu.github.io/RestaurantAPI/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",

@@ -58,7 +58,7 @@ class Results extends Component {
   }
 
   search(name) {
-    fetch("http://opentable.herokuapp.com/api/restaurants?city=" + name)
+    fetch("https://opentable.herokuapp.com/api/restaurants?city=" + name)
       .then(res => res.json())
       .then(json => {
         this.setState({
