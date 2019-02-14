@@ -17,8 +17,8 @@
     bottom: 35%;
     margin: auto;
     background: white;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 1px solid darkgray;
+    border-radius: 3px;
   }
 
   .content{
@@ -28,8 +28,12 @@
 
   .content button{
       text-align: center;
-      background-color: crimson;
-      border: 2px solid black;
+      background-color: lightgray;
+      border: 1px solid darkgray;
       padding: 8px;
       border-radius: 5px;
+      cursor: pointer;
+  }
+  .content button:hover{
+    background-color: lightblue;
   }

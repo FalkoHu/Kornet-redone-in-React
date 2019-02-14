@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Results.css";
+import "./CSS/Results.css";
 import Popuping from "./Popup";
 
 class Results extends Component {
@@ -22,7 +22,9 @@ class Results extends Component {
   }
 
   updateSearch() {
-    this.search(this.props.name);
+    if(this.props.name !== ''){
+      this.search(this.props.name);
+    }
   }
 
   render() {
@@ -37,13 +39,12 @@ class Results extends Component {
               className="polaroid"
               onClick={() => this.togglePopup(item.id)}
             >
-              <img src={item.image_url} style={{ width: "100%" }} />
-              <div className="container">
+            <img src={item.image_url} style={{ width: "100%" }} />
+            <div className="container">
                 <p>{item.name}</p>
-              </div>
             </div>
-          ))}
-          ;
+          </div>
+          ))};
           {this.state.showPopup ? (
             <Popuping
               items={this.state.items}

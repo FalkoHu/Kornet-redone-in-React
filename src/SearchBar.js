@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./CSS/SearchBar.css";
 
 class SearchBar extends Component {
   state = {
@@ -15,19 +16,21 @@ class SearchBar extends Component {
     this.props.submitHandler(this.state.text);
   };
   render() {
-    const style = {
-        width: '40%',
-        border: '1px solid black',
-        padding: 8,
-        borderRadius: 2,
-        marginTop: 5
-    };
-
     return (
-      <form onSubmit={this.onSubmit} style={{textAlign: 'center'}}>
-        <input type="text" value={this.state.text} placeholder="Restaurant" onChange={this.onChange} style={style}/>
-        <input type="submit" value="search" style={{padding: '8px', border: '1px solid black', borderRadius: 2}} />
-      </form>
+      <div className="formDiv">
+        <p>Search for Restaurants in your City</p>
+        <form onSubmit={this.onSubmit} className="form">
+          <input
+            type="text"
+            value={this.state.text}
+            placeholder="Restaurant"
+            onChange={this.onChange}
+            className="inputText"
+          />
+          <br />
+          <input type="submit" value="Search" className="submitButton" />
+        </form>
+      </div>
     );
   }
 }

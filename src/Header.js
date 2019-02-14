@@ -13,7 +13,7 @@ function header() {
 
     return (
         <div style={style}>
-            <h1 style={{padding: '5px'}}>Restaurants and stuff</h1>
+            <h1 style={{padding: '5px'}}>Restaurants</h1>
         </div>
     )
 }
